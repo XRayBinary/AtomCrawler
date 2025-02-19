@@ -1,6 +1,7 @@
 import ssl
 import re
 import requests
+import time
 from urllib3.poolmanager import PoolManager
 from requests.adapters import HTTPAdapter
 from bs4 import BeautifulSoup
@@ -50,25 +51,45 @@ def get_countries():
 
 def get_nuclearPlant():
 
+    url = 'https://pris.iaea.org/'
+
     with open('countries.json', "r") as f:
         countries = json.load(f)
 
     for country, path in countries.items():     
 
-        response = session.get(path)
+        url_country = url + path
+        response = session.get(url_country)
 
         if response.status_code == 200:
 
             soup = BeautifulSoup(response.text, 'html.parser')
 
+            table = soup.find('table', {'class': 'tablesorter'})
+
+            rows = table.find_all('tr')
+            headers = rows[0].find_all('th')
+
+            data = []
+
+            for row in rows[1:]:
+                cells = row.find_all('td')
+                name = cells[0].get_text(strip=True)
+                row_data = [cell.get_text(strip=True) for cell in cells[1:]]
+                data.append(row_data)
+                print(name)
+                print(row_data)
+
+
         else:
             
             print(f"Error al acceder a la página: {response.status_code}")
-
+        
+        time.sleep(2)
 
 def get_nuclearPlantData():
 
-    url = 'https://pris.iaea.org/PRIS/CountryStatistics/ReactorDetails.aspx?current=153'
+    url = 'https://pris.iaea.org/PRIS/CountryStatistics/ReactorDetails.aspx?current=3'
 
     response = session.get(url)
 
@@ -81,18 +102,37 @@ def get_nuclearPlantData():
         table = soup.find('table', {'class': 'active'})
 
         rows = table.find_all('tr')
+
+        final_headers = []
+
         headers = rows[0].find_all('th')
+        sub_headers = rows[1].find_all('th')
 
-        column_headers = [header.get_text(strip=True) for header in headers]
+        n_cols = 0
 
-        with open(f'{reactor_name}.json', "w") as f:
+        for header in headers:
+
+            if header.get('colspan'):
+
+                for i in range(n_cols, n_cols + int(header.get('colspan'))):
+                    if i < len(sub_headers):
+                        final_headers.append(f'{header.get_text(strip=True)}_{sub_headers[i].get_text(strip=True)}')
+                
+                n_cols = n_cols + int(header.get('colspan'))
+            else:
+                final_headers.append(header.get_text(strip=True))
+
+
+        with open(f'{reactor_name}_AnualData.json', "w") as f:
             f.write("")
 
-        keys = column_headers
+        keys = final_headers
+
         data = []
 
         for row in rows[2:]:
             cells = row.find_all('td')
+
             row_data = [cell.get_text(strip=True) for cell in cells]
             data.append(row_data)
 
@@ -100,7 +140,7 @@ def get_nuclearPlantData():
 
             data_dicts = [dict(zip(keys, row)) for row in data]
 
-            with open(f'{reactor_name}.json', "w") as f:
+            with open(f'{reactor_name}_AnualData.json', "w") as f:
                 json.dump(data_dicts, f, indent=4)
 
     else:
@@ -108,4 +148,4 @@ def get_nuclearPlantData():
 
 
 
-get_nuclearPlant()
+get_nuclearPlantData()
