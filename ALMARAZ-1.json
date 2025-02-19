@@ -1,0 +1,389 @@
+[
+    {
+        "Year": "1981",
+        "Electricity Supplied[GW.h]": "1888.900",
+        "Reference Unit Power[MW]": "930",
+        "Annual Time On Line[h]": "3119",
+        "Operation Factor[%]": "",
+        "Energy Availability Factor[%]": "",
+        "Load Factor[%]": ""
+    },
+    {
+        "Year": "1982",
+        "Electricity Supplied[GW.h]": "2322.600",
+        "Reference Unit Power[MW]": "930",
+        "Annual Time On Line[h]": "5864",
+        "Operation Factor[%]": "",
+        "Energy Availability Factor[%]": "",
+        "Load Factor[%]": ""
+    },
+    {
+        "Year": "1983",
+        "Electricity Supplied[GW.h]": "3713.900",
+        "Reference Unit Power[MW]": "930",
+        "Annual Time On Line[h]": "5925",
+        "Operation Factor[%]": "88.7",
+        "Energy Availability Factor[%]": "78.4",
+        "Load Factor[%]": "78.4"
+    },
+    {
+        "Year": "1984",
+        "Electricity Supplied[GW.h]": "4820.500",
+        "Reference Unit Power[MW]": "893",
+        "Annual Time On Line[h]": "6062",
+        "Operation Factor[%]": "69.0",
+        "Energy Availability Factor[%]": "65.0",
+        "Load Factor[%]": "68.5"
+    },
+    {
+        "Year": "1985",
+        "Electricity Supplied[GW.h]": "4825.170",
+        "Reference Unit Power[MW]": "900",
+        "Annual Time On Line[h]": "5705",
+        "Operation Factor[%]": "65.1",
+        "Energy Availability Factor[%]": "61.6",
+        "Load Factor[%]": "65.6"
+    },
+    {
+        "Year": "1986",
+        "Electricity Supplied[GW.h]": "5425.020",
+        "Reference Unit Power[MW]": "900",
+        "Annual Time On Line[h]": "6418",
+        "Operation Factor[%]": "73.3",
+        "Energy Availability Factor[%]": "69.3",
+        "Load Factor[%]": "66.7"
+    },
+    {
+        "Year": "1987",
+        "Electricity Supplied[GW.h]": "7193.690",
+        "Reference Unit Power[MW]": "900",
+        "Annual Time On Line[h]": "8346",
+        "Operation Factor[%]": "95.3",
+        "Energy Availability Factor[%]": "92.5",
+        "Load Factor[%]": "72.6"
+    },
+    {
+        "Year": "1988",
+        "Electricity Supplied[GW.h]": "5879.590",
+        "Reference Unit Power[MW]": "900",
+        "Annual Time On Line[h]": "6899",
+        "Operation Factor[%]": "78.5",
+        "Energy Availability Factor[%]": "74.6",
+        "Load Factor[%]": "73.0"
+    },
+    {
+        "Year": "1989",
+        "Electricity Supplied[GW.h]": "6562.180",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7640",
+        "Operation Factor[%]": "87.2",
+        "Energy Availability Factor[%]": "83.2",
+        "Load Factor[%]": "74.6"
+    },
+    {
+        "Year": "1990",
+        "Electricity Supplied[GW.h]": "6460.660",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7451",
+        "Operation Factor[%]": "85.1",
+        "Energy Availability Factor[%]": "82.2",
+        "Load Factor[%]": "75.6"
+    },
+    {
+        "Year": "1991",
+        "Electricity Supplied[GW.h]": "7481.710",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "8589",
+        "Operation Factor[%]": "98.0",
+        "Energy Availability Factor[%]": "96.2",
+        "Load Factor[%]": "78.1"
+    },
+    {
+        "Year": "1992",
+        "Electricity Supplied[GW.h]": "6379.060",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7387",
+        "Operation Factor[%]": "84.1",
+        "Energy Availability Factor[%]": "80.8",
+        "Load Factor[%]": "78.4"
+    },
+    {
+        "Year": "1993",
+        "Electricity Supplied[GW.h]": "6530.850",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7663",
+        "Operation Factor[%]": "87.5",
+        "Energy Availability Factor[%]": "83.2",
+        "Load Factor[%]": "78.8"
+    },
+    {
+        "Year": "1994",
+        "Electricity Supplied[GW.h]": "7448.600",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "8495",
+        "Operation Factor[%]": "97.0",
+        "Energy Availability Factor[%]": "95.0",
+        "Load Factor[%]": "80.3"
+    },
+    {
+        "Year": "1995",
+        "Electricity Supplied[GW.h]": "6588.460",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7709",
+        "Operation Factor[%]": "88.0",
+        "Energy Availability Factor[%]": "83.7",
+        "Load Factor[%]": "80.6"
+    },
+    {
+        "Year": "1996",
+        "Electricity Supplied[GW.h]": "5904.300",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "6789",
+        "Operation Factor[%]": "77.3",
+        "Energy Availability Factor[%]": "72.5",
+        "Load Factor[%]": "79.9"
+    },
+    {
+        "Year": "1997",
+        "Electricity Supplied[GW.h]": "6642.830",
+        "Reference Unit Power[MW]": "895",
+        "Annual Time On Line[h]": "7371",
+        "Operation Factor[%]": "84.1",
+        "Energy Availability Factor[%]": "79.6",
+        "Load Factor[%]": "79.9"
+    },
+    {
+        "Year": "1998",
+        "Electricity Supplied[GW.h]": "8032.460",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8760",
+        "Operation Factor[%]": "100.0",
+        "Energy Availability Factor[%]": "97.1",
+        "Load Factor[%]": "81.1"
+    },
+    {
+        "Year": "1999",
+        "Electricity Supplied[GW.h]": "6988.630",
+        "Reference Unit Power[MW]": "927",
+        "Annual Time On Line[h]": "7613",
+        "Operation Factor[%]": "86.9",
+        "Energy Availability Factor[%]": "84.7",
+        "Load Factor[%]": "81.3"
+    },
+    {
+        "Year": "2000",
+        "Electricity Supplied[GW.h]": "7471.570",
+        "Reference Unit Power[MW]": "927",
+        "Annual Time On Line[h]": "8014",
+        "Operation Factor[%]": "91.2",
+        "Energy Availability Factor[%]": "90.3",
+        "Load Factor[%]": "81.8"
+    },
+    {
+        "Year": "2001",
+        "Electricity Supplied[GW.h]": "8151.390",
+        "Reference Unit Power[MW]": "927",
+        "Annual Time On Line[h]": "8749",
+        "Operation Factor[%]": "99.9",
+        "Energy Availability Factor[%]": "99.0",
+        "Load Factor[%]": "82.8"
+    },
+    {
+        "Year": "2002",
+        "Electricity Supplied[GW.h]": "7427.990",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8100",
+        "Operation Factor[%]": "92.5",
+        "Energy Availability Factor[%]": "90.4",
+        "Load Factor[%]": "83.2"
+    },
+    {
+        "Year": "2003",
+        "Electricity Supplied[GW.h]": "7499.110",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8233",
+        "Operation Factor[%]": "94.0",
+        "Energy Availability Factor[%]": "91.6",
+        "Load Factor[%]": "83.6"
+    },
+    {
+        "Year": "2004",
+        "Electricity Supplied[GW.h]": "8185.690",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8784",
+        "Operation Factor[%]": "100.0",
+        "Energy Availability Factor[%]": "99.2",
+        "Load Factor[%]": "84.4"
+    },
+    {
+        "Year": "2005",
+        "Electricity Supplied[GW.h]": "7519.430",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8180",
+        "Operation Factor[%]": "93.4",
+        "Energy Availability Factor[%]": "91.4",
+        "Load Factor[%]": "84.7"
+    },
+    {
+        "Year": "2006",
+        "Electricity Supplied[GW.h]": "7152.420",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "7831",
+        "Operation Factor[%]": "89.4",
+        "Energy Availability Factor[%]": "86.5",
+        "Load Factor[%]": "84.8"
+    },
+    {
+        "Year": "2007",
+        "Electricity Supplied[GW.h]": "8189.800",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "8760",
+        "Operation Factor[%]": "100.0",
+        "Energy Availability Factor[%]": "99.0",
+        "Load Factor[%]": "85.4"
+    },
+    {
+        "Year": "2008",
+        "Electricity Supplied[GW.h]": "7190.760",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "7725",
+        "Operation Factor[%]": "87.9",
+        "Energy Availability Factor[%]": "86.6",
+        "Load Factor[%]": "85.5"
+    },
+    {
+        "Year": "2009",
+        "Electricity Supplied[GW.h]": "6880.100",
+        "Reference Unit Power[MW]": "944",
+        "Annual Time On Line[h]": "7336",
+        "Operation Factor[%]": "83.7",
+        "Energy Availability Factor[%]": "82.8",
+        "Load Factor[%]": "85.4"
+    },
+    {
+        "Year": "2010",
+        "Electricity Supplied[GW.h]": "7884.250",
+        "Reference Unit Power[MW]": "1008",
+        "Annual Time On Line[h]": "8147",
+        "Operation Factor[%]": "93.0",
+        "Energy Availability Factor[%]": "89.7",
+        "Load Factor[%]": "85.5"
+    },
+    {
+        "Year": "2011",
+        "Electricity Supplied[GW.h]": "7519.490",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7814",
+        "Operation Factor[%]": "89.2",
+        "Energy Availability Factor[%]": "84.9",
+        "Load Factor[%]": "85.5"
+    },
+    {
+        "Year": "2012",
+        "Electricity Supplied[GW.h]": "7346.070",
+        "Reference Unit Power[MW]": "1004",
+        "Annual Time On Line[h]": "7405",
+        "Operation Factor[%]": "84.3",
+        "Energy Availability Factor[%]": "85.0",
+        "Load Factor[%]": "85.5"
+    },
+    {
+        "Year": "2013",
+        "Electricity Supplied[GW.h]": "7695.840",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7882",
+        "Operation Factor[%]": "90.0",
+        "Energy Availability Factor[%]": "87.1",
+        "Load Factor[%]": "85.6"
+    },
+    {
+        "Year": "2014",
+        "Electricity Supplied[GW.h]": "7252.450",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7351",
+        "Operation Factor[%]": "83.9",
+        "Energy Availability Factor[%]": "81.9",
+        "Load Factor[%]": "85.4"
+    },
+    {
+        "Year": "2015",
+        "Electricity Supplied[GW.h]": "8438.610",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "8613",
+        "Operation Factor[%]": "98.3",
+        "Energy Availability Factor[%]": "95.3",
+        "Load Factor[%]": "85.8"
+    },
+    {
+        "Year": "2016",
+        "Electricity Supplied[GW.h]": "7447.790",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7622",
+        "Operation Factor[%]": "86.8",
+        "Energy Availability Factor[%]": "84.1",
+        "Load Factor[%]": "85.7"
+    },
+    {
+        "Year": "2017",
+        "Electricity Supplied[GW.h]": "7753.930",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7885",
+        "Operation Factor[%]": "90.0",
+        "Energy Availability Factor[%]": "87.6",
+        "Load Factor[%]": "85.8"
+    },
+    {
+        "Year": "2018",
+        "Electricity Supplied[GW.h]": "7844.020",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7934",
+        "Operation Factor[%]": "90.6",
+        "Energy Availability Factor[%]": "88.7",
+        "Load Factor[%]": "85.8"
+    },
+    {
+        "Year": "2019",
+        "Electricity Supplied[GW.h]": "8662.820",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "8760",
+        "Operation Factor[%]": "100.0",
+        "Energy Availability Factor[%]": "98.0",
+        "Load Factor[%]": "86.2"
+    },
+    {
+        "Year": "2020",
+        "Electricity Supplied[GW.h]": "6913.130",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7065",
+        "Operation Factor[%]": "80.4",
+        "Energy Availability Factor[%]": "77.5",
+        "Load Factor[%]": "86.0"
+    },
+    {
+        "Year": "2021",
+        "Electricity Supplied[GW.h]": "7695.620",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7800",
+        "Operation Factor[%]": "89.0",
+        "Energy Availability Factor[%]": "87.2",
+        "Load Factor[%]": "86.0"
+    },
+    {
+        "Year": "2022",
+        "Electricity Supplied[GW.h]": "8427.990",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "8564",
+        "Operation Factor[%]": "97.8",
+        "Energy Availability Factor[%]": "95.2",
+        "Load Factor[%]": "86.2"
+    },
+    {
+        "Year": "2023",
+        "Electricity Supplied[GW.h]": "7735.090",
+        "Reference Unit Power[MW]": "1011",
+        "Annual Time On Line[h]": "7948",
+        "Operation Factor[%]": "90.7",
+        "Energy Availability Factor[%]": "88.6",
+        "Load Factor[%]": "86.3"
+    }
+]
